@@ -1,0 +1,32 @@
+cat > .gitignore << 'EOF'
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+EOF
