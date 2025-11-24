@@ -1,0 +1,299 @@
+{
+  "total_orders": 33,
+  "avg_price": 50.32969729105631,
+  "retry_count": 10,
+  "dlq_count": 7,
+  "recent_orders": [
+    {
+      "orderId": "1",
+      "product": "Item4",
+      "price": 98.26000213623047
+    },
+    {
+      "orderId": "2",
+      "product": "Item5",
+      "price": 17.540000915527344
+    },
+    {
+      "orderId": "3",
+      "product": "Item4",
+      "price": 68.08000183105469
+    },
+    {
+      "orderId": "4",
+      "product": "Item1",
+      "price": 10.199999809265137
+    },
+    {
+      "orderId": "5",
+      "product": "Item1",
+      "price": 28.709999084472656
+    },
+    {
+      "orderId": "6",
+      "product": "Item1",
+      "price": 62.22999954223633
+    },
+    {
+      "orderId": "7",
+      "product": "Item3",
+      "price": 96.05000305175781
+    },
+    {
+      "orderId": "8",
+      "product": "Item4",
+      "price": 94.77999877929688
+    },
+    {
+      "orderId": "10",
+      "product": "Item4",
+      "price": 53.099998474121094
+    },
+    {
+      "orderId": "11",
+      "product": "Item5",
+      "price": 14.670000076293945
+    },
+    {
+      "orderId": "13",
+      "product": "Item5",
+      "price": 77.20999908447266
+    },
+    {
+      "orderId": "14",
+      "product": "Item3",
+      "price": 36.90999984741211
+    },
+    {
+      "orderId": "17",
+      "product": "Item3",
+      "price": 81.06999969482422
+    },
+    {
+      "orderId": "19",
+      "product": "Item5",
+      "price": 41.5
+    },
+    {
+      "orderId": "20",
+      "product": "Item5",
+      "price": 40.369998931884766
+    },
+    {
+      "orderId": "21",
+      "product": "Item1",
+      "price": 23.40999984741211
+    },
+    {
+      "orderId": "23",
+      "product": "Item3",
+      "price": 76.55000305175781
+    },
+    {
+      "orderId": "24",
+      "product": "Item1",
+      "price": 38.7400016784668
+    },
+    {
+      "orderId": "25",
+      "product": "Item1",
+      "price": 32.470001220703125
+    },
+    {
+      "orderId": "26",
+      "product": "Item5",
+      "price": 65.30999755859375
+    },
+    {
+      "orderId": "27",
+      "product": "Item4",
+      "price": 31.790000915527344
+    },
+    {
+      "orderId": "28",
+      "product": "Item1",
+      "price": 42.27000045776367
+    },
+    {
+      "orderId": "29",
+      "product": "Item5",
+      "price": 96.56999969482422
+    },
+    {
+      "orderId": "30",
+      "product": "Item1",
+      "price": 10.210000038146973
+    },
+    {
+      "orderId": "31",
+      "product": "Item1",
+      "price": 11.489999771118164
+    },
+    {
+      "orderId": "32",
+      "product": "Item4",
+      "price": 57.720001220703125
+    },
+    {
+      "orderId": "33",
+      "product": "Item4",
+      "price": 33.83000183105469
+    },
+    {
+      "orderId": "34",
+      "product": "Item5",
+      "price": 46.65999984741211
+    },
+    {
+      "orderId": "35",
+      "product": "Item5",
+      "price": 30.170000076293945
+    },
+    {
+      "orderId": "36",
+      "product": "Item5",
+      "price": 65.41000366210938
+    },
+    {
+      "orderId": "38",
+      "product": "Item1",
+      "price": 78.81999969482422
+    },
+    {
+      "orderId": "39",
+      "product": "Item3",
+      "price": 26.75
+    },
+    {
+      "orderId": "40",
+      "product": "Item5",
+      "price": 72.02999877929688
+    }
+  ],
+  "retry_messages": [
+    {
+      "orderId": "4",
+      "product": "Item1",
+      "price": 10.199999809265137,
+      "attempt": 2,
+      "error": "Simulated temporary error on first attempt",
+      "time": 1763993873587
+    },
+    {
+      "orderId": "5",
+      "product": "Item1",
+      "price": 28.709999084472656,
+      "attempt": 2,
+      "error": "Simulated temporary error on first attempt",
+      "time": 1763993874594
+    },
+    {
+      "orderId": "6",
+      "product": "Item1",
+      "price": 62.22999954223633,
+      "attempt": 2,
+      "error": "Simulated temporary error on first attempt",
+      "time": 1763993875599
+    },
+    {
+      "orderId": "21",
+      "product": "Item1",
+      "price": 23.40999984741211,
+      "attempt": 2,
+      "error": "Simulated temporary error on first attempt",
+      "time": 1763993890033
+    },
+    {
+      "orderId": "24",
+      "product": "Item1",
+      "price": 38.7400016784668,
+      "attempt": 2,
+      "error": "Simulated temporary error on first attempt",
+      "time": 1763993893028
+    },
+    {
+      "orderId": "25",
+      "product": "Item1",
+      "price": 32.470001220703125,
+      "attempt": 2,
+      "error": "Simulated temporary error on first attempt",
+      "time": 1763993894053
+    },
+    {
+      "orderId": "28",
+      "product": "Item1",
+      "price": 42.27000045776367,
+      "attempt": 2,
+      "error": "Simulated temporary error on first attempt",
+      "time": 1763993897039
+    },
+    {
+      "orderId": "30",
+      "product": "Item1",
+      "price": 10.210000038146973,
+      "attempt": 2,
+      "error": "Simulated temporary error on first attempt",
+      "time": 1763993899043
+    },
+    {
+      "orderId": "31",
+      "product": "Item1",
+      "price": 11.489999771118164,
+      "attempt": 2,
+      "error": "Simulated temporary error on first attempt",
+      "time": 1763993900047
+    },
+    {
+      "orderId": "38",
+      "product": "Item1",
+      "price": 78.81999969482422,
+      "attempt": 2,
+      "error": "Simulated temporary error on first attempt",
+      "time": 1763993907050
+    }
+  ],
+  "dlq_messages": [
+    {
+      "orderId": "9",
+      "payload": "{\"orderId\": \"9\", \"product\": \"Item2\", \"price\": 54.02000045776367}",
+      "error": "Simulated permanent error (after 1 attempt(s))",
+      "time": 1763993877010
+    },
+    {
+      "orderId": "12",
+      "payload": "{\"orderId\": \"12\", \"product\": \"Item2\", \"price\": 80.77999877929688}",
+      "error": "Simulated permanent error (after 1 attempt(s))",
+      "time": 1763993880021
+    },
+    {
+      "orderId": "15",
+      "payload": "{\"orderId\": \"15\", \"product\": \"Item2\", \"price\": 56.150001525878906}",
+      "error": "Simulated permanent error (after 1 attempt(s))",
+      "time": 1763993883020
+    },
+    {
+      "orderId": "16",
+      "payload": "{\"orderId\": \"16\", \"product\": \"Item2\", \"price\": 15.65999984741211}",
+      "error": "Simulated permanent error (after 1 attempt(s))",
+      "time": 1763993884019
+    },
+    {
+      "orderId": "18",
+      "payload": "{\"orderId\": \"18\", \"product\": \"Item2\", \"price\": 91.01000213623047}",
+      "error": "Simulated permanent error (after 1 attempt(s))",
+      "time": 1763993886030
+    },
+    {
+      "orderId": "22",
+      "payload": "{\"orderId\": \"22\", \"product\": \"Item2\", \"price\": 83.23999786376953}",
+      "error": "Simulated permanent error (after 1 attempt(s))",
+      "time": 1763993890036
+    },
+    {
+      "orderId": "37",
+      "payload": "{\"orderId\": \"37\", \"product\": \"Item2\", \"price\": 13.520000457763672}",
+      "error": "Simulated permanent error (after 1 attempt(s))",
+      "time": 1763993905033
+    }
+  ]
+}
